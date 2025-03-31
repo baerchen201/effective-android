@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="values">
+        <item>World</item>
+        <item>Android</item>
+        <item>Java</item>
+        <item>Toast</item>
+        <item>Among Us</item>
+    </string-array>
+</resources>
