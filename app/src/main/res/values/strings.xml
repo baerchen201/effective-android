@@ -8,4 +8,9 @@
         <item>Toast</item>
         <item>Among Us</item>
     </string-array>
+
+    <string-array name="bgm">
+        <item>elevator</item>
+        <item>shopmusic</item>
+    </string-array>
 </resources>

@@ -9,6 +9,24 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:gravity="bottom|right"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/bgm"
+            android:spinnerMode="dropdown"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/valueList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
